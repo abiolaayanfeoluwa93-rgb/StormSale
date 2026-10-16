@@ -1,0 +1,27 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-87-test-full-vitest-framework-integration",
+    "fix/issue-87-test-full-vitest-framework-integration-r2",
+    "main",
+    "origin",
+    "security/issue-86-admin-emergency-kill-switch-ui",
+    "security/issue-86-admin-emergency-kill-switch-ui-r2"
+  ],
+  "parent": {
+    "fix/issue-87-test-full-vitest-framework-integration": "main",
+    "fix/issue-87-test-full-vitest-framework-integration-r2": "fix/issue-87-test-full-vitest-framework-integration",
+    "main": null,
+    "origin": "main",
+    "security/issue-86-admin-emergency-kill-switch-ui": "main",
+    "security/issue-86-admin-emergency-kill-switch-ui-r2": "security/issue-86-admin-emergency-kill-switch-ui"
+  },
+  "order": [
+    "main",
+    "fix/issue-87-test-full-vitest-framework-integration",
+    "origin",
+    "security/issue-86-admin-emergency-kill-switch-ui",
+    "fix/issue-87-test-full-vitest-framework-integration-r2",
+    "security/issue-86-admin-emergency-kill-switch-ui-r2"
+  ]
+}
